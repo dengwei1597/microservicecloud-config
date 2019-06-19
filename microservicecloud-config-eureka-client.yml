@@ -6,7 +6,7 @@
 
 eureka: 
     instance:
-        hostName: eureka7001.com
+        hostname: eureka7001.com
     client: 
         register-with-eureka: false #当前的eurekas自己不注册进服务列表中
         fetch-registry: false    #不通过Eureka获取注册信息
